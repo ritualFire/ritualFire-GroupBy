@@ -15,3 +15,5 @@
 
 -- Write your sql statement anywhere below this line
 
+Select artist,count(song) From song Group by artist; 
+
